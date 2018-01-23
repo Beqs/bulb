@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Labb_jQuery", "Labb_jQuery\", "{AFD9B193-ABF0-4A21-AB6F-18318C4ADE6C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49788"
+		Debug.AspNetCompiler.PhysicalPath = "Labb_jQuery\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49788\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49788"
+		Release.AspNetCompiler.PhysicalPath = "Labb_jQuery\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49788\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49788"
+		SlnRelativePath = "Labb_jQuery\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD9B193-ABF0-4A21-AB6F-18318C4ADE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD9B193-ABF0-4A21-AB6F-18318C4ADE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59A56289-CBC9-497C-B5EB-BD71E4F858B4}
+	EndGlobalSection
+EndGlobal
