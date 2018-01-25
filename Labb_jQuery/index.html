@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <button id="myButton">Click here</button>
+    <button id="myButton">Click here or use spacebar</button>
 
     <div id="bulbDiv">
         <img id="bulb1" class="bulbs" src="bulb-off.jpg" />
@@ -20,7 +20,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script> <!--jQuery src-->
+            crossorigin="anonymous"></script>  <!--jQuery src--> 
 
     <script>
 
@@ -61,7 +61,14 @@
             }
         }
 
-        $("#myButton").click(buttonClick);
+       $("#myButton").click(buttonClick);
+
+        $(document).keydown(function (e) {
+            if (e.keyCode == 32) {
+                buttonClick()
+                return false;
+            }
+        });
 
     </script>
 
